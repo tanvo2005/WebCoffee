@@ -16,6 +16,11 @@
     align-items: center;
     justify-content: flex-start;
 }
+.header-item-link{
+    text-decoration: none;
+    color: #ded4cf;
+}
+
 .header-item{
     font-size: 1.4rem;
     line-height: 3rem;

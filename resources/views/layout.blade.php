@@ -15,7 +15,7 @@
 <body>
     <header class="header">
         <ul class="header-list">
-            <li class="header-item">GIỚI THIỆU</li>
+            <a class="header-item-link" href="{{ url('/about') }}"><li class="header-item">GIỚI THIỆU</li></a>
             <li class="header-item">SẢN PHẨM</li>
             <li class="header-item">TIN TỨC</li>
             <li class="header-item">LIÊN HỆ</li>
@@ -29,7 +29,7 @@
         <div class="grid">
             <div class="grid-row">
                 <div class="grid-row-3-3">
-                    <h3 class="footer-name">Công Ty Cà Phê ABC</h3>
+                    <h3 class="footer-name">Nhóm 2 Roastery Coffee</h3>
                     <ul class="footer-list">
                         <li class="footer-item">Địa chỉ :23 ,Mẹ Suốt, Q. Liên Chiểu, TP Đà Nẵng
                         <li class="footer-item">Điện thoại: 0999000000</li>
