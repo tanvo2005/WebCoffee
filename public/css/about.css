@@ -1,0 +1,169 @@
+.about{
+    position: relative;
+    
+}
+.about-content{
+    width: calc(100% - 420px);
+    height: 100%;
+    padding-top: 70px;
+    padding-bottom: 155px;
+}
+.about-conten1 {
+    padding-left: 134px;
+    padding-right: 60px;
+}
+
+
+.about-conten1-title {
+    font-size: 1.6rem;
+    color: #b5891a;
+    display: block;
+    font-weight: 500;
+}
+
+.about-conten1-name {
+    font-size: 3rem;
+    line-height: 4rem;
+    font-weight: 700;
+    display: block;
+    text-transform: uppercase;
+    padding: 10px 0;
+    color: var(--coffe-Color);
+    
+
+}
+
+.about-conten1-decripsicon {
+    display: block;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    text-align: left;
+    padding-bottom: 30px;
+
+}
+
+.about-conten1-trangchu {
+    width: 240px;
+    height: 50px;
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    background-color:  #b5891a;
+    text-transform: uppercase;
+
+}
+.about-conten1-trangchu:hover{
+    color: var(--while-color);
+    opacity: 0.9;
+
+}
+
+.about-conten2 {
+    padding-left: 134px;
+    padding-right: 40px;
+    padding-top: 50px;
+    display: flex;
+}
+
+.about-conten2-list {
+    padding-right: 70px;
+
+}
+
+.about-conten2-name1 {
+    display: block;
+    font-size: 1.6rem;
+    font-weight: 600;
+
+}
+
+.about-conten2-name2 {
+    display: block;
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--coffe-Color);
+    padding: 30px 0;
+
+}
+
+.about-conten2-name3 {
+    font-size: 1.6rem;
+    font-weight: 600;
+
+}
+.about-conten-img{
+    width: 420px;
+    height: 100vh;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    object-fit: cover;
+
+    
+}
+
+.about-info {
+    position: relative;
+    height: 100vh;
+    
+}
+
+.about-info-img {
+    width: 738px;
+    height: 100vh;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+.about-info-content {
+    width: calc(100% - 738px);
+    float: right;
+    padding: 30px 10px 10px 20px;
+    
+
+}
+
+.about-info-content-title {
+    display: block;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #b5891a;
+
+}
+
+.about-info-content-name {
+    display: block;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 3rem;
+    color: var(--coffe-Color);
+    padding: 25px 0 15px 0;
+
+}
+
+.about-info-content-decripsion {
+    display: block;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+
+}
+
+.about-info-content-list {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    padding: 10px 0 0 20px;
+
+}
+
+.about-info-content-item {
+    padding: 10px 0;
+
+}
