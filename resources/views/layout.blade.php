@@ -16,10 +16,12 @@
 <body>
     <header class="header">
         <ul class="header-list">
+            <a class="header-item-link" href="{{ asset('/') }}"><li class="header-item">TRANG CHỦ</li></a>
             <a class="header-item-link" href="{{ url('/about') }}"><li class="header-item">GIỚI THIỆU</li></a>
-            <li class="header-item">SẢN PHẨM</li>
-            <li class="header-item">TIN TỨC</li>
-            <li class="header-item">LIÊN HỆ</li>
+            <a class="header-item-link" href="{{ url('/menu') }}"><li class="header-item">SẢN PHẨM</li></a>
+            <a class="header-item-link" href="{{ url('/beanstory') }}"><li class="header-item">TIN TỨC</li></a>
+            <a class="header-item-link" href="{{ url('/contact') }}"><li class="header-item">LIÊN HỆ</li></a>
+            
         </ul>
     </header>
     

@@ -167,3 +167,189 @@
     padding: 10px 0;
 
 }
+
+/* menu */
+.menu-title{
+    margin-top: 50px;
+}
+.productviewitem-link{
+    text-decoration: none;
+    display: block;
+    margin-top: 20px;
+    position: relative;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .1);
+    top: 0;
+    transition: top linear .1s;
+}
+.productviewitem-link:hover{
+    top: -3px;
+    box-shadow: 0 1px 20px 0 rgba(0, 0, 0, .05);
+}
+.category-name{
+    font-size: 2.2rem;
+    color: var(--coffe-Color);
+    text-align: center;
+    display: block;
+    font-weight: 500;
+    width: 600px;
+    height: 40px;
+    background-color: #dbb667;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    margin: 40px auto 10px;
+}
+/* end menu */
+
+/* bean story */
+.bean-story {
+
+}
+
+.bean-story-title {
+    font-size: 2.5rem;
+    color: var(--coffe-Color);
+    text-align: center;
+    display: block;
+    margin-top: 70px;
+    margin-bottom: 40px;
+    font-weight: 500;
+}
+
+.bean-story-conten {
+    display: flex;
+    padding-left: 50px;
+    padding-top: 10px;
+
+}
+
+.bean-story-img{
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+.bean-story-info {
+    display: block;
+    padding-left: 20px;
+    color: var(--text-color);
+}
+
+.bean-story-name {
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: var(--coffe-Color);
+
+}
+
+.bean-story-origin {
+    display: block;
+    font-size: 1.4rem;
+    padding: 10px 0;
+}
+
+.bean-story-decription {
+    font-size: 1.4rem;
+
+}
+
+/* end bean story */
+
+/* start contact */
+.contact {
+    
+
+}
+
+.contact-title {
+    font-size: 2.5rem;
+    color: var(--coffe-Color);
+    text-align: center;
+    display: block;
+    margin-top: 70px;
+    margin-bottom: 40px;
+    font-weight: 500;
+
+}
+
+.contact-content {
+    width: 100%;
+    display: flex;
+    margin: 100px 0;
+    justify-content: space-around;
+    
+
+
+}
+
+.contact-info {
+    font-size: 1.4rem;
+    line-height: 2.5rem;
+
+}
+.contact-info i[class*='fa-']{
+    width: 30px;
+    display: inline-block;
+}
+
+.contact-form{
+    display: inline-block;
+
+}
+
+.contact-form-btn {
+    margin-top: 16px !important;
+    font-size: 15px;
+    color: var(--coffe-Color);
+    background-color: #b5891a;
+    border: 1px solid #000;
+    padding: 6px 14px;
+    cursor: pointer;
+    float: right;
+
+}
+.contact-form-btn:hover{
+    color: var(--while-color);
+}
+.contact-form-row {
+    margin-left: -8px;
+    margin-right: -8px;
+
+}
+.contact-form-row::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.contact-form-cols {
+    float: left;
+    padding-left: 8px;
+    padding-right: 8px;
+
+}
+
+.contact-form-cols2 {
+    width: 50%;
+
+}
+
+.contact-form-input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 100%;
+    
+
+}
+
+.contact-form-mt8 {
+    padding-top: 8px !important;
+
+}
+
+.contact-form-colsfull {
+    width: 100%;
+
+}
+
+/* end contact */
