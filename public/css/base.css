@@ -39,3 +39,7 @@ html{
     padding-right: 10px;
     width: 25%;
 }
+.main{
+    display: block;
+    margin-bottom: -16px;
+}

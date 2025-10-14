@@ -47,7 +47,7 @@
                         <img src="{{ asset('image/coffeeLatte.jpg') }}" alt="" class="productview-img">
                         <div class="productview-info">
                             <span class="productview-name">Tinh Vân Latte</span>
-                            <span class="productview-price">55.000</span>
+                            <span class="productview-price">55.000 đ</span>
                         </div>
                     </div>
                 </div>
@@ -58,7 +58,7 @@
                         <img src="{{ asset('image/americano.jpg') }}" alt="" class="productview-img">
                         <div class="productview-info">
                             <span class="productview-name">Hố Đen Americano</span>
-                            <span class="productview-price">45.000</span>
+                            <span class="productview-price">45.000 đ</span>
                         </div>
                     </div>
                 </div>
@@ -69,7 +69,7 @@
                         <img src="{{ asset('image/coldbrew.jpg') }}" alt="" class="productview-img">
                         <div class="productview-info">
                             <span class="productview-name">Vũ Trụ Cold Brew</span>
-                            <span class="productview-price">60.000</span>
+                            <span class="productview-price">60.000 đ</span>
                         </div>
                     </div>
                 </div>

@@ -25,7 +25,7 @@
         </ul>
     </header>
     
-    <main>
+    <main style="display: block; margin-bottom: -16px;">
         @yield('content');
     </main>
     <footer class="footer">
