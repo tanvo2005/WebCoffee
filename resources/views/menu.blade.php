@@ -11,7 +11,7 @@
                 <div class="grid-row">
                     @foreach($item as $dr)
                         <div class="gird-row-4-4 productviewitem">
-                            <a href="" class="productviewitem-link">
+                            <a href="{{ url('/item/' . $dr['id']) }}" class="productviewitem-link">
                                 <div class="productviewitem-new">
                                     <img src="{{ asset($dr['image']) }}" alt="" class="productview-img">
                                     <div class="productview-info">
@@ -25,9 +25,7 @@
                 </div>
             </div>
         @endforeach
-        
-
-        
     </div>
     <!-- end product -->
 @endsection
+
