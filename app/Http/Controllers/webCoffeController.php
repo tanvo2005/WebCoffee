@@ -7,10 +7,10 @@ use Illuminate\Http\Request;
 class webCoffeController extends Controller
 {
     public function index(){
-        return view('index');
+        return view('index', ['activePage' => 'index']);
     }
     public function about(){
-        return view('about');
+        return view('about' , ['activePage' => 'about']);
     }
     public function menu(){
         $drink = [
@@ -71,7 +71,7 @@ class webCoffeController extends Controller
             ]
 
         ];
-        return view('menu', ['drinks' => $drink]);
+        return view('menu', ['drinks' => $drink], ['activePage' => 'menu']);
     }
 
     public function beanstory(){
@@ -81,10 +81,10 @@ class webCoffeController extends Controller
             ['id' => 2, 'name' => 'Hạt Thiên Thạch (Colombia)', 'origin' =>'Huila, Colombia', 'notes' => 'Vị ngọt caramel, sô cô la và một chút
             hương cam.', 'image' => 'image/colombia.jpg'],
         ];
-        return view('beanstory', ['beanstory' => $bean]);
+        return view('beanstory', ['beanstory' => $bean], ['activePage' => 'beanstory']);
     }
     public function contact(){
-        return view('contact');
+        return view('contact', ['activePage' => 'contact']);
     }
 
     public function productDetail($id){
@@ -163,7 +163,7 @@ class webCoffeController extends Controller
 
         }
 
-        return view('productDetail', ['item' => $item]);
+        return view('productDetail', ['item' => $item], ['activePage' => 'productDetail'] );
 
 
     }
