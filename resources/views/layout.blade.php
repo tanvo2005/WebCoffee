@@ -31,7 +31,7 @@
         <div class="grid">
             <div class="grid-row">
                 <div class="grid-row-3-3">
-                    <h3 class="footer-name">Nhóm 2 Roastery Coffee</h3>
+                    <h3 class="footer-name">Nhóm 6 Demo Cuối Kỳ</h3>
                     <ul class="footer-list">
                         <li class="footer-item">Địa chỉ :23 ,Mẹ Suốt, Q. Liên Chiểu, TP Đà Nẵng
                         <li class="footer-item">Điện thoại: 0999000000</li>
