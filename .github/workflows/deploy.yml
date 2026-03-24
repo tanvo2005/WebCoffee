@@ -80,9 +80,11 @@ jobs:
           # Fix Laravel 
           sudo docker exec coffee cp .env.example .env
           sudo docker exec coffee php artisan key:generate
-
+          
+          # fixt lỗi database
           sudo docker exec coffee mkdir -p database
           sudo docker exec coffee touch database/database.sqlite
+          sudo docker exec coffee php artisan migrate --force
 
           sudo docker exec coffee php artisan config:clear
           sudo docker exec coffee php artisan cache:clear
