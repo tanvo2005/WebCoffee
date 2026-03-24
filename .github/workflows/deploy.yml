@@ -22,10 +22,15 @@ jobs:
     # 3. Cài dependencies
     - name: Install dependencies
       run: composer install --no-interaction --prefer-dist
+    
+    - name: Setup environment
+      run: |
+        cp .env.example .env
+        php artisan key:generate
 
     # 4. Run test
     - name: Run test
-      run: php artisan test || true
+      run: php artisan test 
 
     # 5. Build Docker image
     - name: Build Docker image
@@ -47,7 +52,7 @@ jobs:
         username: ubuntu
         key: ${{ secrets.EC2_SSH_KEY }}
         script: |
-          docker pull ${{ secrets.DOCKER_USERNAME }}/webcoffenhom6
-          docker stop coffee || true
-          docker rm coffee || true
-          docker run -d -p 80:8000 --name coffee ${{ secrets.DOCKER_USERNAME }}/webcoffenhom6
+          sudo docker pull ${{ secrets.DOCKER_USERNAME }}/webcoffenhom6
+          sudo docker stop coffee || true
+          sudo docker rm coffee || true
+          sudo docker run -d -p 80:8000 --name coffee ${{ secrets.DOCKER_USERNAME }}/webcoffenhom6
