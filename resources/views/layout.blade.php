@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="{{ asset('css/main.css') }}">
     <link rel="stylesheet" href="{{ asset('css/base.css') }}">
     <link rel="stylesheet" href="{{ asset('css/about.css') }}">
-    <title>Nhóm 2 Roastery Coffee</title>
+    <title>Nhóm 6 Demo Cuối Kỳ</title>
 </head>
 <body>
     <header class="header">
@@ -20,8 +20,7 @@
             <a class="header-item-link" href="{{ url('/about') }}"><li class="header-item @if ($activePage === 'about') active @endif ">GIỚI THIỆU</li></a>
             <a class="header-item-link" href="{{ url('/menu') }}"><li class="header-item @if (($activePage === 'menu') or ($activePage === 'productDetail')) active @endif ">SẢN PHẨM</li></a>
             <a class="header-item-link" href="{{ url('/beanstory') }}"><li class="header-item @if ($activePage === 'beanstory') active @endif ">TIN TỨC</li></a>
-            <a class="header-item-link" href="{{ url('/contact') }}"><li class="header-item @if ($activePage === 'contact') active @endif ">LIÊN HỆ</li></a>
-            
+            <a class="header-item-link" href="{{ url('/contact') }}"><li class="header-item @if ($activePage === 'contact') active @endif ">LIÊN HỆ</li></a>    
         </ul>
     </header>
     
