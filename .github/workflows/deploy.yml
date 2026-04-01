@@ -30,15 +30,15 @@ jobs:
         cp .env.example .env
         php artisan key:generate
 
-    # Run test (FAIL là dừng luôn)
+    # Run test 
     - name: Run test
       run: php artisan test
 
-  # ========================
+
   # 2. CD - BUILD & DEPLOY
-  # ========================
+
   deploy:
-    needs: test   # 🔥 chỉ chạy nếu test PASS
+    needs: test  
     runs-on: ubuntu-latest
 
     steps:
